@@ -1,0 +1,12 @@
+cars
+
+id - INT - PRIMARY_KEY   (NOTNULL - AUTO_INCREMENT - UNIQUE)
+brand - VARCHAR(50) - NOTNULL
+model - VARCHAR(50) - NOTNULL
+year - YEAR - NULL
+km - MEDIUMINT -NOTNULL
+fuel - VARCHAR(25) - NOTNULL - DEFAULT('diesel')
+condition - VARCHAR(25) - NOTNULL - DEFAULT('used')
+color - VARCHAR(25) - NULL
+price - DECIMAL(8,2) - NOTNULL
+note - VARCHAR(255) - NULL
